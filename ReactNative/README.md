@@ -1,3 +1,8 @@
+npx create-expo-app app-name --template
+npx expo install react-native-web react-dom @expo/metro-runtime
+npm i -g @expo/ngrok
+npm install @react-navigation/native @react-navigation/stack
+npx expo install react-native-screens react-native-safe-area-context
 npm install @expo/ngrok
 npx expo start --tunnel
 npm install expo@^54.0.0 
