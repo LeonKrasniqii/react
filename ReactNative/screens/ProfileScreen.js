@@ -1,11 +1,11 @@
 import React from "react";
-import {Text,View,StyleSheet} from "react-native";
+import {View,StyleSheet} from "react-native";
 import StudentInfo from "../components/StudentInfo";
 import Project from "../components/Project";
 
 const ProfileScreen = () =>{
     return(
-        <View>
+        <View style={styles.container}>
           <StudentInfo 
           fullname = "Leon Krasniqi" 
           position="UI/UX Designer" 
