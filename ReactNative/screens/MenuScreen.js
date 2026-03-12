@@ -30,6 +30,14 @@ const MenuScreen = (props) => {
                     Go to BoxScreen
                 </Text>
             </TouchableOpacity>
+             <TouchableOpacity
+                style={styles.btn}
+                onPress={() => props.navigation.navigate('Post')}
+            >
+                <Text style={styles.btnText}>
+                    Go to PostsScreen
+                </Text>
+            </TouchableOpacity>
         </View>
     );
 };

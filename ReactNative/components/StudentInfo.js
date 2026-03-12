@@ -1,36 +1,38 @@
 import React from "react";
-import {View,Text,Image,TouchableOpacity,StyleSheet} from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 
-const StudentInfo = (props) =>{
-    return(
-        <View style={styles.container}>
-            <View style={styles.headerBackground}/>
-            <View style={styles.profileImageContainer}>
-                <image
-                source={props.profileImage}
-                style={styles.profileImage}
-                />
-            </View>
-            <TouchableOpacity style={styles.settingsIcon}>
-                <Text style={styles.settingsText}>⚙️</Text>
-            </TouchableOpacity>
-            <View style={styles.cardContent}>
-                <Text style={styles.fullname}>{props.fullname}</Text>
+const StudentInfo = (props) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.headerBackground} />
 
-                <Text style={styles.position}>{props.position}</Text>
+      <View style={styles.profileImageContainer}>
+        <Image
+          source={props.profileImage}
+          style={styles.profileImage}
+        />
+      </View>
 
-                <Text style={styles.description}>{props.description}</Text>
+      <TouchableOpacity style={styles.settingsIcon}>
+        <Text style={styles.settingsText}>⚙️</Text>
+      </TouchableOpacity>
 
-                <TouchableOpacity style={styles.settingsIcon}>
-                    <Text style={styles.hireButtonText}>HIRE HIM</Text>
-                </TouchableOpacity>
+      <View style={styles.cardContent}>
+        <Text style={styles.fullname}>{props.fullname}</Text>
 
-            </View>
-        </View>
-    );
+        <Text style={styles.position}>{props.position}</Text>
+
+        <Text style={styles.description}>{props.description}</Text>
+
+        <TouchableOpacity style={styles.hireButton}>
+          <Text style={styles.hireButtonText}>HIRE HIM</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
 };
-const styles = StyleSheet.create({
 
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f2f2f2",
@@ -55,6 +57,16 @@ const styles = StyleSheet.create({
     width: 140,
     height: 140,
     borderRadius: 70,
+  },
+
+  settingsIcon: {
+    position: "absolute",
+    top: 40,
+    right: 20,
+  },
+
+  settingsText: {
+    fontSize: 22,
   },
 
   cardContent: {
@@ -103,6 +115,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#000",
   },
-
 });
+
 export default StudentInfo;
