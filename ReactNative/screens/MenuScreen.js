@@ -38,6 +38,23 @@ const MenuScreen = (props) => {
                     Go to PostsScreen
                 </Text>
             </TouchableOpacity>
+             <TouchableOpacity
+                style={styles.btn}
+                onPress={() => props.navigation.navigate('User')}
+            >
+                <Text style={styles.btnText}>
+                    Go to UserScreen
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                style={styles.btn}
+                onPress={() => props.navigation.navigate('Todo')}
+            >
+                <Text style={styles.btnText}>
+                    Go to TodoScreen
+                </Text>
+            </TouchableOpacity>
+
         </View>
     );
 };
