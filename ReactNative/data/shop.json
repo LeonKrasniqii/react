@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"name": "Everyday T-Shirt",
+		"category": "Clothing",
+		"price": 19.99,
+		"stock": 120,
+		"images": ["assets/jordan1.jpg"],
+		"description": "A comfortable cotton t-shirt available in multiple colors and sizes."
+	},
+	{
+		"id": 2,
+		"name": "Running Sneakers",
+		"category": "Footwear",
+		"price": 79.5,
+		"stock": 45,
+		"images": ["assets/jordan3.jpg"],
+		"description": "Lightweight running shoes with breathable mesh and cushioned sole."
+	},
+	{
+		"id": 3,
+		"name": "Wireless Headphones",
+		"category": "Electronics",
+		"price": 129.99,
+		"stock": 30,
+		"images": ["assets/jordan4.jpg"],
+		"description": "Noise-cancelling over-ear headphones with 20-hour battery life."
+	},
+	{
+		"id": 4,
+		"name": "Ceramic Coffee Mug",
+		"category": "Home",
+		"price": 12.0,
+		"stock": 200,
+		"images": ["assets/jordan5.jpg"],
+		"description": "12oz ceramic mug with a matte finish — dishwasher safe."
+	},
+	{
+		"id": 5,
+		"name": "Desk Lamp",
+		"category": "Home",
+		"price": 34.25,
+		"stock": 60,
+		"images": ["assets/jordan10.jpg"],
+		"description": "Adjustable LED desk lamp with dimmer and USB charging port."
+	},
+	{
+		"id": 6,
+		"name": "Stainless Water Bottle",
+		"category": "Outdoors",
+		"price": 24.99,
+		"stock": 150,
+		"images": ["assets/jordan11.jpg"],
+		"description": "Vacuum-insulated bottle keeps drinks cold for 24 hours."
+	},
+	{
+		"id": 7,
+		"name": "Bluetooth Speaker",
+		"category": "Electronics",
+		"price": 49.99,
+		"stock": 80,
+		"images": ["assets/jordan13.jpg"],
+		"description": "Portable speaker with deep bass and waterproof rating IPX6."
+	}
+
+]

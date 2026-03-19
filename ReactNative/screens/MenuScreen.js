@@ -54,6 +54,23 @@ const MenuScreen = (props) => {
                     Go to TodoScreen
                 </Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                style={styles.btn}
+                onPress={() => props.navigation.navigate('Countries')}
+            >
+                <Text style={styles.btnText}>
+                    Go to CountriesScreen
+                </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                style={styles.btn}
+                onPress={() => props.navigation.navigate('Shop')}
+            >
+                <Text style={styles.btnText}>
+                    Go to ShopScreen
+                </Text>
+            </TouchableOpacity>
 
         </View>
     );

@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"name": "United States",
+		"country": "US",
+		"description": "A large North American country with diverse geography and cultures."
+	},
+	{
+		"id": 2,
+		"name": "Canada",
+		"country": "CA",
+		"description": "A vast country known for forests, lakes, and friendly cities."
+	},
+	{
+		"id": 3,
+		"name": "Brazil",
+		"country": "BR",
+		"description": "The largest country in South America, home to the Amazon rainforest."
+	},
+	{
+		"id": 4,
+		"name": "United Kingdom",
+		"country": "GB",
+		"description": "An island nation in Europe with a long cultural and political history."
+	},
+	{
+		"id": 5,
+		"name": "Germany",
+		"country": "DE",
+		"description": "A central European country known for engineering, culture, and festivals."
+	},
+	{
+		"id": 6,
+		"name": "France",
+		"country": "FR",
+		"description": "Famous for its cuisine, art, and landmarks like the Eiffel Tower."
+	},
+	{
+		"id": 7,
+		"name": "Nigeria",
+		"country": "NG",
+		"description": "A populous West African country with diverse ethnic groups and languages."
+	},
+	{
+		"id": 8,
+		"name": "South Africa",
+		"country": "ZA",
+		"description": "A southern African nation known for its varied ecosystems and history."
+	},
+	{
+		"id": 9,
+		"name": "India",
+		"country": "IN",
+		"description": "A large South Asian country with rich cultural, linguistic, and geographic diversity."
+	},
+	{
+		"id": 10,
+		"name": "China",
+		"country": "CN",
+		"description": "An East Asian country with a long history and the world's largest population."
+	},
+	{
+		"id": 11,
+		"name": "Japan",
+		"country": "JP",
+		"description": "An island nation in East Asia known for technology, culture, and cuisine."
+	},
+	{
+		"id": 12,
+		"name": "Australia",
+		"country": "AU",
+		"description": "A large country-continent with unique wildlife and varied climates."
+	},
+	{
+		"id": 13,
+		"name": "Mexico",
+		"country": "MX",
+		"description": "A North American country with rich traditions, cuisine, and landscapes."
+	},
+	{
+		"id": 14,
+		"name": "Italy",
+		"country": "IT",
+		"description": "Known for its art, history, and world-famous cuisine."
+	},
+	{
+		"id": 15,
+		"name": "New Zealand",
+		"country": "NZ",
+		"description": "An island nation in the South Pacific known for dramatic landscapes."
+	}
+]
